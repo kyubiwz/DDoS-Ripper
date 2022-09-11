@@ -42,14 +42,15 @@ arch_table = (
 #
 HT_HARDDISK, HT_IFMAC, HT_IPV4, HT_IPV6, HT_DOMAIN = range(5)
 
-#
+`git clone https://github.com/palahsu/DDoS-Ripper`
 # Global
-#
-_pytransform = None
+`cd DDoS-Ripper`
+` ls`
 
-
+python3 DRipper.py
 class PytransformError(Exception):
-    pass
+python3 DRipper.py -s [ip Address] -t 135`
+
 
 
 def dllmethod(func):
